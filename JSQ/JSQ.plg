@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JSQ - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/JSQ.res" /d "NDEBUG" /d "_AFXDLL" "F:\chenbo\math\JSQ\JSQ1.1.13.5\JSQ.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/JSQ.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\chenbo\math\JSQ\JSQ1.1.13.5\DlgSet.cpp"
+"F:\chenbo\math\JSQ\JSQ1.1.13.5\Euler.cpp"
+"F:\chenbo\math\JSQ\JSQ1.1.13.5\JSQ.cpp"
+"F:\chenbo\math\JSQ\JSQ1.1.13.5\JSQDlg.cpp"
+"F:\chenbo\math\JSQ\JSQ1.1.13.5\MyMath.cpp"
+"F:\chenbo\math\JSQ\JSQ1.1.13.5\Version.cpp"
+"F:\chenbo\math\JSQ\JSQ1.1.13.5\WkDebug.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/JSQ.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\chenbo\math\JSQ\JSQ1.1.13.5\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD5.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/JSQ.pdb" /machine:I386 /out:"Release/JSQ.exe" 
+.\Release\DlgSet.obj
+.\Release\Euler.obj
+.\Release\JSQ.obj
+.\Release\JSQDlg.obj
+.\Release\MyMath.obj
+.\Release\StdAfx.obj
+.\Release\Version.obj
+.\Release\WkDebug.obj
+.\Release\JSQ.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgSet.cpp
+Euler.cpp
+JSQ.cpp
+JSQDlg.cpp
+MyMath.cpp
+Version.cpp
+WkDebug.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/JSQ.bsc"  .\Release\StdAfx.sbr .\Release\DlgSet.sbr .\Release\Euler.sbr .\Release\JSQ.sbr .\Release\JSQDlg.sbr .\Release\MyMath.sbr .\Release\Version.sbr .\Release\WkDebug.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+JSQ.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

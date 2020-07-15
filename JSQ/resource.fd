@@ -1,0 +1,47 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by JSQ.rc
+!
+      integer, parameter :: IDM_ABOUTBOX                    = 16
+      integer, parameter :: IDD_ABOUTBOX                    = 100
+      integer, parameter :: IDS_ABOUTBOX                    = 101
+      integer, parameter :: IDD_JSQ_DIALOG                  = 102
+      integer, parameter :: IDR_MAINFRAME                   = 128
+      integer, parameter :: IDD_DIALOG_SET                  = 129
+      integer, parameter :: IDC_EDIT_OUTPUT                 = 1000
+      integer, parameter :: IDC_EDIT_INPUT                  = 1001
+      integer, parameter :: IDC_BTN_ADD                     = 1002
+      integer, parameter :: IDC_BTN_MINUS                   = 1003
+      integer, parameter :: IDC_BTN_MULT                    = 1004
+      integer, parameter :: IDC_BTN_DIV                     = 1005
+      integer, parameter :: IDC_BTN_7                       = 1006
+      integer, parameter :: IDC_BTN_8                       = 1007
+      integer, parameter :: IDC_BTN_9                       = 1008
+      integer, parameter :: IDC_BTN_4                       = 1009
+      integer, parameter :: IDC_BTN_5                       = 1010
+      integer, parameter :: IDC_BTN_6                       = 1011
+      integer, parameter :: IDC_BTN_1                       = 1012
+      integer, parameter :: IDC_BTN_2                       = 1013
+      integer, parameter :: IDC_BTN_3                       = 1014
+      integer, parameter :: IDC_BTN_CLEAR                   = 1015
+      integer, parameter :: IDC_BTN_0                       = 1016
+      integer, parameter :: IDC_BTN_FACTOR                  = 1017
+      integer, parameter :: IDC_HINTMESS                    = 1018
+      integer, parameter :: IDC_STEPTIME                    = 1019
+      integer, parameter :: IDC_STOP                        = 1020
+      integer, parameter :: IDC_REP_LOAD                    = 1021
+      integer, parameter :: IDC_REP_SAVE                    = 1022
+      integer, parameter :: IDC_MOD                         = 1023
+      integer, parameter :: IDC_REP10                       = 1024
+      integer, parameter :: IDC_MSAVE                       = 1025
+      integer, parameter :: IDC_MR                          = 1026
+      integer, parameter :: ID_CAP_DELT                     = 1028
+      integer, parameter :: ID_PRIME_SEARCH                 = 1029
+      integer, parameter :: IDC_SQRT                        = 1030
+      integer, parameter :: IDC_BUTTON_SET                  = 1031
+      integer, parameter :: IDC_EDIT_NeedCacu               = 1032
+      integer, parameter :: IDC_BUTTON_SQR                  = 1033
+      integer, parameter :: IDC_BUTTON_POWER                = 1034
+      integer, parameter :: IDC_JSQ_EXTEND                  = 1035
+      integer, parameter :: IDC_VERSION                     = 1036
+      integer, parameter :: IDC_COPYRIGHT                   = 1037

@@ -1,0 +1,261 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\JSQ.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\JSQ.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 233, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 JSQ"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "JSQ 1.00.0010 版",IDC_VERSION,46,27,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 Wreck (C) 2004-2014",IDC_COPYRIGHT,45,50,132,8
+    DEFPUSHBUTTON   "确定",IDOK,176,7,50,14,WS_GROUP
+END
+
+IDD_JSQ_DIALOG DIALOGEX 0, 0, 382, 249
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "JSQ"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "计算",IDOK,241,15,50,14
+    EDITTEXT        IDC_EDIT_OUTPUT,24,153,336,82,ES_MULTILINE | 
+                    ES_WANTRETURN | WS_VSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_EDIT_INPUT,30,17,184,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_BTN_ADD,72,94,18,12
+    PUSHBUTTON      "-",IDC_BTN_MINUS,71,77,19,11
+    PUSHBUTTON      "×",IDC_BTN_MULT,69,61,20,12
+    PUSHBUTTON      "÷",IDC_BTN_DIV,69,41,17,13
+    PUSHBUTTON      "7",IDC_BTN_7,105,39,15,14,BS_CENTER
+    PUSHBUTTON      "8",IDC_BTN_8,125,39,15,13,BS_CENTER
+    PUSHBUTTON      "9",IDC_BTN_9,145,39,14,14,BS_CENTER
+    PUSHBUTTON      "4",IDC_BTN_4,105,57,16,14
+    PUSHBUTTON      "5",IDC_BTN_5,125,57,16,14
+    PUSHBUTTON      "6",IDC_BTN_6,145,57,13,14
+    PUSHBUTTON      "1",IDC_BTN_1,106,73,13,13
+    PUSHBUTTON      "2",IDC_BTN_2,125,73,15,14
+    PUSHBUTTON      "3",IDC_BTN_3,145,73,14,13
+    PUSHBUTTON      "清空",IDC_BTN_CLEAR,169,40,26,12
+    PUSHBUTTON      "0",IDC_BTN_0,105,92,35,13
+    PUSHBUTTON      "分解",IDC_BTN_FACTOR,26,57,24,11
+    EDITTEXT        IDC_HINTMESS,25,121,220,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STEPTIME,274,123,75,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "停止",IDC_STOP,170,57,28,14
+    PUSHBUTTON      "载入",IDC_REP_LOAD,25,73,28,12
+    PUSHBUTTON      "保存",IDC_REP_SAVE,23,91,35,12
+    PUSHBUTTON      "mod",IDC_MOD,205,39,32,14
+    PUSHBUTTON      "10^n",IDC_REP10,207,59,28,16
+    PUSHBUTTON      "MS",IDC_MSAVE,245,39,20,11
+    PUSHBUTTON      "MR",IDC_MR,247,59,20,9
+    PUSHBUTTON      "Delt",ID_CAP_DELT,207,82,31,14
+    PUSHBUTTON      "Prime",ID_PRIME_SEARCH,250,86,24,14
+    PUSHBUTTON      "sqrt",IDC_SQRT,279,59,19,14
+    PUSHBUTTON      "设置",IDC_BUTTON_SET,307,18,50,14
+    PUSHBUTTON      "x^2",IDC_BUTTON_SQR,281,40,20,14
+    PUSHBUTTON      "x^y",IDC_BUTTON_POWER,283,80,17,14
+    PUSHBUTTON      "Extend",IDC_JSQ_EXTEND,317,72,35,30
+END
+
+IDD_DIALOG_SET DIALOG DISCARDABLE  0, 0, 187, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,30,71,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,110,69,50,14
+    EDITTEXT        IDC_EDIT_NeedCacu,61,13,40,14,ES_AUTOHSCROLL
+    LTEXT           "NeedCacu:",IDC_STATIC,18,15,36,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,13,6
+ PRODUCTVERSION 1,1,13,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "计算器，用于简单的数学计算\0"
+            VALUE "CompanyName", "Wreck Studio\0"
+            VALUE "FileDescription", "JSQ Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 01, 0013, 6, (2014-02-19 23:19)\0"
+            VALUE "InternalName", "JSQ\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2004 - 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "JSQ.EXE\0"
+            VALUE "PrivateBuild", "Wreck\0"
+            VALUE "ProductName", "JSQ 应用程序\0"
+            VALUE "ProductVersion", "1, 1, 13, 6\0"
+            VALUE "SpecialBuild", "Microsoft Visual C++ 6.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_JSQ_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 375
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_DIALOG_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 JSQ(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\JSQ.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
